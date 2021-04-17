@@ -41,12 +41,10 @@ height: 500px;
 background-color: mediumslateblue;
 transition: 1s;
 font-family: "Lucida Console", "Courier New", monospace;
-font-size: 20px;
+letter-spacing: 1.5x;
 }
 
 .content:hover {
     background-color:turquoise; 
     border-radius: 50%;
-    transform: rotate(20deg);
-
 }

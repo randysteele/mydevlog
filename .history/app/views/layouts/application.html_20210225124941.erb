@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Mydevblog</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
@@ -9,15 +8,9 @@
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%
-=begin%>
-    <link rel="stylesheet" href="application.css" />
-    <%
-=end%>
-</head>
+  </head>
 
-<body>
+  <body>
     <%= yield %>
-</body>
-
+  </body>
 </html>

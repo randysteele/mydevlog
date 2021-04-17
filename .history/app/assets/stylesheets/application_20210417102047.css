@@ -13,40 +13,7 @@
  *= require_tree .
  *= require_self
  */
- /* display: flex;  */
 
- th {    
-    color: green; 
-    background-color: magenta;
-    width: auto;
-    height: auto;
-    border: 100%, double, burlywood;
+ th {
+    display: flex 
  }
-
- strong {
-     display: flex;
-     flex: auto;
-     flex-wrap: wrap-reverse; 
- }
-
- p:first-of-type {
-     color: yellow;
-     text-decoration: wavy;
-     font-style: italic;
- }
-
- .content {
-width: 500px;
-height: 500px;
-background-color: mediumslateblue;
-transition: 1s;
-font-family: "Lucida Console", "Courier New", monospace;
-font-size: 20px;
-}
-
-.content:hover {
-    background-color:turquoise; 
-    border-radius: 50%;
-    transform: rotate(20deg);
-
-}

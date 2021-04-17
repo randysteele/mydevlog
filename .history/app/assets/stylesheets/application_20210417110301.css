@@ -20,7 +20,7 @@
     background-color: magenta;
     width: auto;
     height: auto;
-    border: 100%, double, burlywood;
+    border: 5em;
  }
 
  strong {
@@ -36,17 +36,8 @@
  }
 
  .content {
-width: 500px;
-height: 500px;
-background-color: mediumslateblue;
-transition: 1s;
-font-family: "Lucida Console", "Courier New", monospace;
-font-size: 20px;
-}
-
-.content:hover {
-    background-color:turquoise; 
-    border-radius: 50%;
-    transform: rotate(20deg);
-
-}
+     display: flexbox;
+     flex-direction: row;
+     color: pink;
+     transform: rotate(45deg);
+ }

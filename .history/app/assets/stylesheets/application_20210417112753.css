@@ -36,17 +36,10 @@
  }
 
  .content {
-width: 500px;
-height: 500px;
-background-color: mediumslateblue;
-transition: 1s;
-font-family: "Lucida Console", "Courier New", monospace;
-font-size: 20px;
-}
-
-.content:hover {
-    background-color:turquoise; 
-    border-radius: 50%;
-    transform: rotate(20deg);
-
-}
+    text-align: start;
+    text-shadow: 3em;
+     /* display: flexbox;
+     flex-direction: row;
+     color: pink; */
+     /* transform: rotate(45deg); */
+ }
